@@ -1,0 +1,14 @@
+.project-img {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  transition: 1s ease-in-out;
+}
+.project-img img {
+  transition: 1s ease-in-out;
+}
+.project-img:hover img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
