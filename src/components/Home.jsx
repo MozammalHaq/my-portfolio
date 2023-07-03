@@ -14,7 +14,7 @@ const Home = () => {
             <TopBanner />
             {/* <AboutMe /> */}
             <Skills />
-            {/* <Projects /> */}
+            <Projects />
             <Contact />
             <Footer />
         </div>

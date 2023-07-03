@@ -21,6 +21,7 @@ const Menubar = () => {
                     <Nav className="me-auto">
                         <Link style={navlink} className='text-info' to="/skills">Skills</Link>                      
                         <Link style={navlink} className='text-info' to="/projects">Projects</Link>                      
+                        <Link style={navlink} className='text-info' to="/contact">Contact Me</Link>                      
                     </Nav>
                     <Nav>
                         <img style={{width: "50px"}} className='rounded-circle border' src={user} alt="" />

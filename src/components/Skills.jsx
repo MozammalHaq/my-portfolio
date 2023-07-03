@@ -19,8 +19,8 @@ const Skills = () => {
     return (
         <Container>
             <Row>
-                <Col className='text-center my-5'>
-                    <h2 className='text-info'>My Skills</h2>
+                <Col className='text-center my-5 '>
+                    <h2 className='text-info border-top rounded-pill border-info border-2 d-inline pt-2 px-3'>My Skills</h2>
                 </Col>
             </Row>
             <Row>
