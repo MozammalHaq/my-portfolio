@@ -17,10 +17,10 @@ import github from '../assets/icon/github.png'
 
 const Skills = () => {
     return (
-        <Container>
+        <Container style={{paddingBottom: "5rem"}}>
             <Row>
                 <Col className='text-center my-5 '>
-                    <h2 className='text-info border-top rounded-pill border-info border-2 d-inline pt-2 px-3'>My Skills</h2>
+                    <h2 className='text-white border-top rounded-pill border-white border-2 d-inline pt-2 px-3'>My Skills</h2>
                 </Col>
             </Row>
             <Row>

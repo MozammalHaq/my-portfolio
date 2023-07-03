@@ -1,12 +1,13 @@
 import Image from '../assets/mozammal.png'
 import Button from 'react-bootstrap/Button';
 import { Container, Row } from 'react-bootstrap';
+import { fadeIn } from 'react-animations'
 
 
 const TopBanner = () => {
 
     const handleDownload = async () => {
-        const fileUrl = '../assets/resume.pdf';
+        const fileUrl = '/src/assets/resume.pdf';
 
         try {
             const response = await fetch(fileUrl);
@@ -31,7 +32,7 @@ const TopBanner = () => {
                             <h3>Assalamu Alaikum Warahmatullah</h3>
                             <p style={{ fontSize: "calc(.8rem + .6vw)" }} className='mb-4 my-2'>(May Allah's peace and blessings be upon you.)</p>
                         </div>
-                        <h2 className='mb-5 border-bottom border-3 rounded-pill text-center px-3 pb-2'>I am a Front-end <span className='text-info'>Web Developer</span></h2>
+                        <h2 className='mb-5 border-bottom border-3 rounded-pill text-center px-3 pb-2'>I am a Front-end <span className='text-info' style={fadeIn}>Web Developer</span></h2>
                         <div className='text-center'>
                             <Button onClick={handleDownload} variant="outline-info rounded-pill">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-cloud-download" viewBox="0 0 16 16">
