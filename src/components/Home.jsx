@@ -6,6 +6,7 @@ import Skills from './Skills';
 import Contact from './Contact';
 import Footer from './Footer';
 import Projects from './Projects';
+// import { Outlet } from 'react-router-dom/dist';
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Skills />
             <Projects />
             <Contact />
+            {/* <Outlet /> */}
             <Footer />
         </div>
     );
