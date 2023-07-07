@@ -1,7 +1,7 @@
 import Image from '../assets/mozammal.png'
 // import Button from 'react-bootstrap/Button';
 import { Container, Row } from 'react-bootstrap';
-import { Typewriter } from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter';
 
 const TopBanner = () => {
 
@@ -23,6 +23,7 @@ const TopBanner = () => {
     // };
 
     return (
+
         <Container style={{ padding: "6rem 0 4rem 0" }}>
             <Row>
                 <div className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
